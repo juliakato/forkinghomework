@@ -1,8 +1,9 @@
+#forked (Jordan and Julia)
 library(tidyverse)
 library(dplyr)
 library(data.table)
 
-diamonds
+diamonds 
 
 diamonds%>%
   select(carat,cut,price)%>%
